@@ -25,3 +25,10 @@ function changePositionForCenter (id) {
 	           }
 }
 
+function changeBackgroundColor (isenter,color) {
+	if (isenter){
+		this.style.backgroundColor = "#FDFDE0";	
+	}else{
+		this.style.backgroundColor = color;
+	}
+}

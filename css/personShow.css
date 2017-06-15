@@ -19,6 +19,11 @@ div.all {
 #perCenter {
 	margin: auto;
 }
+.with{
+	width: 789px;
+	text-align: left;
+	margin: auto;
+}
 div p,h1 {
 	margin: 20px;
 }
