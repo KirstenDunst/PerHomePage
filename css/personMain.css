@@ -7,4 +7,18 @@
       color: #999999;
       background-color: #FDFDE0;
  }
+ .style1 {
+ 	font-size: 24px;
+    color: #fdfdf0;	
+ }
+ .style2 {
+ 	font-size: 24px;
+    color: #000000;
+ }
+ .style3 {
+ 	font-size: 14px;
+    color: #000000; 	
+    /*text-indent 文本缩进*/
+    text-indent: 1cm;
+ }
     
