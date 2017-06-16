@@ -1,0 +1,22 @@
+/*研究生的框架头*/
+.tite {
+	width: 1000px;
+	height: 90px;
+	margin: auto;
+}
+table.title2 a {
+	text-decoration: none;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: black;
+}
+
+.Sign {
+	font-size: 16px; 
+	font-family: arial;
+	text-align: center;
+	text-decoration: none;
+	color: blue;
+	font-size: 15px;
+}

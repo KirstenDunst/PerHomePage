@@ -11,12 +11,16 @@ h1.title {
 	font-size: 20px;
 }
 div.all {
+	margin-top: 20px;
 	border: 1px solid lightslategray;
 	width: 789px;
 	text-align: left;
 	border-radius: 10px;
 }
 #perCenter {
+	margin: auto;
+}
+.per{
 	margin: auto;
 }
 .with{
@@ -35,3 +39,15 @@ div li {
 	margin-left: 20px;
 }
 
+table.title {
+	width: 789px;
+	text-align: left;
+	margin: auto;
+}
+
+table.title td {
+	width: 105px;
+	background-color: deepskyblue;
+	text-align: center;
+	border-radius: 5px;
+}
