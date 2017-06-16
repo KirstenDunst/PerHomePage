@@ -5,30 +5,33 @@
 		<title>研究生</title>
 		<link href="css/graduatestudent.css" type="text/css" rel="stylesheet" />
 		<script src="js/personShow.js"></script>
+		<script src="js/granduateStudent1.js"></script>
 	</head>
 	<body>
 		<table id="cente" onresize="changePositionForCenter('cente')" class="tite">
 			<tr>
 				<td>
-					<img src="https://github.com/fluidicon.png"  width="40px" height="40px"/>
+					<a href="personMain.html">
+						<img src="https://github.com/fluidicon.png"  width="40px" height="40px"/>
+					</a>
 				</td>
 				<td>
 					<table class="title2" cellpadding="12">
 				        <tr>
 					        <td>
-						         <a href="weidingyi">Features</a>
+						         <a onclick="changeFrameSrc('lastBody','graduatestudent1.html')">Features</a>
 					        </td>
 					        <td>
-						         <a href="asf">Business</a>
+						         <a onclick="changeFrameSrc('lastBody','granduateStudent21.html')">Business</a>
 					        </td>
 					        <td>
-						         <a href="asf">Explore</a>
+						         <a onclick="changeFrameSrc('lastBody','granduateStudent21.html')">Explore</a>
 					        </td>
 					        <td>
-						         <a href="hjsfg">Marketplace</a>
+						         <a onclick="changeFrameSrc('lastBody','granduateStudent21.html')">Marketplace</a>
 					        </td>
 					        <td>
-						         <a href="fbh">Pricing</a>
+						         <a onclick="changeFrameSrc('lastBody','granduateStudent21.html')">Pricing</a>
 					        </td>
 				       </tr>
 			       </table>
@@ -42,10 +45,9 @@
 				</td>
 			</tr>
 		</table>
-		<hr style="color: lightgray;"/>
-		
+		<hr style="color: lightgray;"/>	
 		<div class="tite" id="bodey" onresize="changePositionForCenter('bodey')">
-			 <iframe src="graduateStudent1.html" style="width: 1000px; height: 2000px;" frameborder="no"></iframe>
+			 <iframe src="graduateStudent1.html" style="width: 1000px; height: 2000px;" frameborder="no" id="lastBody"></iframe>
 		</div>
 	</body>
 </html>
