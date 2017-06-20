@@ -24,13 +24,6 @@ function getRandomColorForBackground () {
 //让iframe里面的按钮点击整个界面换新的。
 function reloadANew () {
 	alert("跳出");
-//	top.location = "http://www.baidu.com"  
+//	top.location = "http://www.baidu.com";   //与下面的这两个可以通用。
 	self.location.href = "http://www.baidu.com/";
-	
-	/*
-	 url直接跳转
-     js中的window.location.href
-     window.navigate()
-     self.location.href
-	 */
 }

@@ -20,3 +20,10 @@ table.cell div {
 	width: 300px;
 	height: 150px;
 }
+
+.contributions {
+	width: 630px;
+	height: 300px;
+	border: 1px solid lightslategray;
+	border-radius: 5px;
+}
